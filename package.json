@@ -1,0 +1,16 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "Proxy dev.pushcoin.com server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Simon Guillen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.4.0"
+  }
+}
